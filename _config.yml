@@ -1,63 +1,57 @@
-# Build settings
-gems:
-  - jemoji
-  - jekyll-paginate
+# Header
+menu:
+ 主页: /
+ 所有文章: /archives
+ # 随笔: /tags/随笔
 
-# Site settings
-title: "Mediator"
-description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+# SubNav
+subnav:
+ github: "https://github.com/OOP-Code-Bunny/"       //github地址
+ weibo: "http://weibo.com/p/1005052438739075/home"  //微博地址
+ rss: "#"                                           //订阅
+ zhihu: "#"                                         //知乎地址
+ #douban: "#"                                       //下面这些前面带#的,就不显示在主页上,如果有账号,就可以打开
+ #mail: "#"
+ #facebook: "#"
+ #google: "#"
+ #twitter: "#"
+ #linkedin: "#"
 
-email: a-mail@mail.mail
-#blog logo
-logo: "/assets/images/df_logo.jpg"
-float_logo: true # true, false (default)
+rss: /atom.xml
 
-# blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+# Content
+excerpt_link: more
+fancybox: true
+mathjax: true
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
-author_image: "/assets/images/author.jpg"
+# Miscellaneous
+google_analytics: ''
+favicon: /favicon.png
 
-paginate:	5
+#你的头像url
+avatar: "https://avatars1.githubusercontent.com/u/11350373?v=3&s=460"     //设置头像图片
+#是否开启分享
+share: true
+#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+duoshuo: true                                                             //使用'多说'评论
+#是否开启云标签
+tagcloud: true
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
-baseurl: ""
-#used to display twitter cards
-twitter_handle: '@dirkfabisch'
+#是否开启友情链接
+#不开启——
+#friends: false
+#开启——
+friends:
+ 我的github: https://github.com/OOP-Code-Bunny/                           //自定义友情链接
+ 周孝刚: https://github.com/a5635268/
+ 王麟: http://kingarthas37.github.io/
+ 郑印: https://github.com/zhengyin/
 
-#fill in disqus shortname to use disqus
-#disqus: disqus-shortname
+#是否开启“关于我”。
+#不开启——
+#aboutme: false
+#开启——
+aboutme: 虽然咸鱼翻身还是咸鱼,但至少可以变得好吃一点                                   //关于我介绍
 
-#google_analytics: UA-XXXXX-X
-
-# social icons and sharing options
-social:
-  - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
-
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
-  - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+duoshuo_shortname: codebunny                                             //多说域名,后面再解释
